@@ -11,7 +11,7 @@ export default function Header() {
         <div className="grid grid-flow-row xl:flex xl:h-28 xl:w-80 items-center justify-start">
           <img src="logo.png" alt="biovitoria" />
         </div>
-        <div className="hidden grid grid-flow-row xl:flex xl:items-center">
+        <div className="hidden xl:visible grid grid-flow-row xl:flex xl:items-center">
           <ul className="inline-block">
             <a href="">
               <li className="inline-block p-4">Home</li>
@@ -30,7 +30,7 @@ export default function Header() {
             </a>
           </ul>
         </div>
-        <div className="fixed z-10 bg-white bottom-0 flex h-16 w-full justify-center items-center">
+        <div className="xl:hidden rounded-sm shadow-2xl fixed z-10 bg-white bottom-0 flex h-16 lg:h-24 w-full justify-center items-center">
           <div className=" grid grid-flow-col gap-2 w-full">
             <div className="flex justify-center">
               <RiHomeLine size="40" />

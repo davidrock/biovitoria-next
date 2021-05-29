@@ -7,10 +7,10 @@ export function WhatWeDo() {
   });
   return (
     <section>
-      <div className="w-full pt-16 grid grid-rows-1 grid-cols-4 md:hidden xl:visible">
-        <div className="flex justify-start" style={{ marginTop: "77px" }}>
+      <div className="w-full xl:pt-16 grid grid-rows-1 xl:grid-cols-4">
+        <div className="flex justify-start hidden lg:visible">
           <lottie-player
-            id="firstLottie"
+            id="plages"
             ref={ref}
             autoplay
             loop
@@ -34,7 +34,33 @@ export function WhatWeDo() {
               racional de praguicídas, manipulação, orientação e controle
               ambiental.
             </p>
-            <p className="pt-4 text-center text-gray-300">
+
+            <div className="grid justify-center items-center md:gap-28 lg:hidden">
+              <div className="hidden md:visible">
+                <lottie-player
+                  id="plages-2"
+                  ref={ref}
+                  autoplay
+                  loop
+                  mode="normal"
+                  src="lotties/pestes.json"
+                  style={{ width: "120px", height: "120px" }}
+                ></lottie-player>
+              </div>
+              <div className="visible xl:visible">
+                <lottie-player
+                  id="protector-2"
+                  ref={ref}
+                  autoplay
+                  loop
+                  mode="normal"
+                  style={{ width: "250px", height: "250px" }}
+                  src="lotties/covid-19-protect.json"
+                ></lottie-player>
+              </div>
+            </div>
+
+            <p className="xl:pt-4 text-center text-gray-300">
               Nossos profissionais são capacitados a realizar os serviços com
               excelência e dar informações técnicas dos serviços e das pragas,
               orientando os clientes sobre medidas de prevenção e manutenção dos
@@ -42,9 +68,9 @@ export function WhatWeDo() {
             </p>
           </div>
         </div>
-        <div className="flex justify-start" style={{ marginTop: "-40px" }}>
+        <div className="flex justify-start hidden lg:visible">
           <lottie-player
-            id="firstLottie"
+            id="protector-1"
             ref={ref}
             autoplay
             loop
