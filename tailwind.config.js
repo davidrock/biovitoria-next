@@ -5,8 +5,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      inter: ["Padauk", ...defaultTheme.fontFamily.sans],
-      rajdhani: ["Poppins", "Georgia", ...defaultTheme.fontFamily.sans],
+      padauk: ["Padauk", ...defaultTheme.fontFamily.sans],
+      poppings: ["Poppins", "Georgia", ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {

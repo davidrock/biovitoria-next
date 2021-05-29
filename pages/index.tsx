@@ -3,6 +3,7 @@ import Image from "next/image";
 import Banner from "../components/banner";
 import Header from "../components/header";
 import { OurServices } from "../components/our-services";
+import { WhatWeDo } from "../components/what-we-do";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -12,6 +13,11 @@ export default function Home() {
       <Banner />
       <main>
         <div className="bg-biovitoria text-white">
+          <div className="container mx-auto px-4 py-16">
+            <WhatWeDo />
+          </div>
+        </div>
+        <div className="bg-gray-50 text-white">
           <div className="container mx-auto px-4 py-16">
             <OurServices />
           </div>
