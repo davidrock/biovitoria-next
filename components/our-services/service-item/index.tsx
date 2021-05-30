@@ -8,11 +8,13 @@ type ServiceItemProps = {
 export function ServiceItem(props: ServiceItemProps) {
   return (
     <div className="grid grid-flow-row gap-2 justify-self-start content-start">
-      <div className="w-full">
+      <div className="w-full flex justify-center md:justify-start">
         <img src={props.iconUrl} className="w-16 h-16" alt={props.alt} />
       </div>
-      <h2 className="font-bold text-xl">{props.title}</h2>
-      <div className="font-padauk">{props.children}</div>
+      <div className="font-semibold text-xl flex justify-center md:justify-start">
+        {props.title}
+      </div>
+      <div className="font-padauk text-center font-light text-sm md:text-left">{props.children}</div>
     </div>
   );
 }

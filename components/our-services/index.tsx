@@ -14,7 +14,7 @@ export function OurServices() {
         Soluções eficazes que priorizam a segurança das Pessoas, Animais e do
         Meio Ambiente.
       </p>
-      <div className="grid grid-rows-1 grid-cols-3 mt-16 gap-8">
+      <div className="grid grid-rows-1 md:grid-cols-2 xl:grid-cols-3 mt-16 gap-8">
         <ServiceItem iconUrl="icons/baratas.svg" title="Baratas" alt="Baratas">
           Estes insetos podem estar presentes nos mais diversos ambientes,
           infestando os mais diferentes pontos. Somos especialistas em controle
