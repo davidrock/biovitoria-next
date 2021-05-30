@@ -17,11 +17,11 @@ export default function Home() {
             <WhatWeDo />
           </div>
         </div>
-        {/* <div className="bg-gray-50 text-white">
+        <div className="bg-gray-50 text-white">
           <div className="container mx-auto px-4 py-16">
             <OurServices />
           </div>
-        </div> */}
+        </div>
       </main>
 
       <footer className={styles.footer}></footer>
