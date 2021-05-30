@@ -8,10 +8,10 @@ export default function Header() {
   return (
     <div className="xl:h-28 w-screen">
       <div className="container grid grid-flow-row xl:flex xl:justify-between mx-auto">
-        <div className="grid grid-flow-row xl:flex xl:h-28 xl:w-80 items-center justify-start">
-          <img src="logo.png" alt="biovitoria" />
+        <div className="grid grid-flow-row xl:flex px-16 py-4 md:px-32 xl:p-0 xl:h-28 xl:w-80 items-center justify-center xl:justify-start">
+          <img src="logo.png" alt="biovitoria" className="w-80" />
         </div>
-        <div className="hidden xl:visible grid grid-flow-row xl:flex xl:items-center">
+        <div className="hidden grid-flow-row xl:flex xl:items-center">
           <ul className="inline-block">
             <a href="">
               <li className="inline-block p-4">Home</li>
