@@ -6,37 +6,36 @@ export default function About() {
   });
   return (
     <div>
-      <h1 className="text-biovitoria text-4xl text-center mb-20">Quem Somos</h1>
+      <h1 className="text-center text-5xl font-padauk font-semibold text-biovitoria mb-20">Quem Somos</h1>
       <div className="grid grid-flow-row md:grid-cols-2 justify-center">
         <div className="grid md:grid-flow-row w-72 h-72 xl:w-96 xl:h-96 lg:justify-self-center">
-          <lottie-player
-            id="group"
-            autoplay
-            loop
-            mode="normal"
-            src="lotties/grupo.json"
-          ></lottie-player>
-          <lottie-player
-            id="handshake"
-            autoplay
-            loop
-            mode="normal"
-            src="lotties/handshake.json"
-          ></lottie-player>
-          <lottie-player
-            id="paciente"
-            autoplay
-            loop
-            mode="normal"
-            src="lotties/patient-successfully-added.json"
-          ></lottie-player>
-          <lottie-player
-            id="paciente"
-            autoplay
-            loop
-            mode="normal"
-            src="lotties/like-motion.json"
-          ></lottie-player>
+          <div className="">
+            <lottie-player
+              id="group"
+              autoplay
+              loop
+              mode="normal"
+              src="lotties/grupo.json"
+            ></lottie-player>
+          </div>
+          <div className="hidden md:flex">
+            <lottie-player
+              id="handshake"
+              autoplay
+              loop
+              mode="normal"
+              src="lotties/handshake.json"
+            ></lottie-player>
+          </div>
+          <div className="hidden md:flex">
+            <lottie-player
+              id="paciente"
+              autoplay
+              loop
+              mode="normal"
+              src="lotties/patient-successfully-added.json"
+            ></lottie-player>
+          </div>
         </div>
         <div className="grid grid-flow-row text-biovitoria text-xl">
           <p className="font-bold">
