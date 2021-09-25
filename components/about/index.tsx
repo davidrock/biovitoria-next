@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 
 export default function About() {
   React.useEffect(() => {
@@ -7,9 +7,9 @@ export default function About() {
   return (
     <div>
       <h1 className="text-center text-5xl font-padauk font-semibold text-biovitoria mb-20">Quem Somos</h1>
-      <div className="grid grid-flow-row md:grid-cols-2 justify-center">
-        <div className="grid md:grid-flow-row w-72 h-72 xl:w-96 xl:h-96 lg:justify-self-center">
-          <div className="">
+      <div className="grid grid-flow-row md:grid-cols-2 justify-items-center">
+        <div className="grid md:grid-flow-row w-64 h-64 xl:w-96 xl:h-96 lg:justify-self-center">
+          <div className="lg:w-72">
             <lottie-player
               id="group"
               autoplay
@@ -18,7 +18,7 @@ export default function About() {
               src="lotties/grupo.json"
             ></lottie-player>
           </div>
-          <div className="hidden md:flex">
+          <div className="hidden md:flex lg:w-72">
             <lottie-player
               id="handshake"
               autoplay
@@ -27,7 +27,7 @@ export default function About() {
               src="lotties/handshake.json"
             ></lottie-player>
           </div>
-          <div className="hidden md:flex">
+          <div className="hidden md:flex lg:w-80">
             <lottie-player
               id="paciente"
               autoplay
