@@ -6,7 +6,7 @@
 
 @layer base {
   @font-face {
-    font-family: "Padauk", sans-serif;
+    font-family: 'Padauk', sans-serif;
     font-weight: 400;
   }
 
@@ -14,7 +14,7 @@
   input,
   textarea,
   button {
-    font: 400 1rem "Inter", sans-serif;
+    font: 400 1rem 'Inter', sans-serif;
   }
 
   button {

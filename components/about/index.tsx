@@ -6,7 +6,7 @@ export default function About() {
   });
   return (
     <div>
-      <h1 className="text-center text-5xl font-padauk font-semibold text-biovitoria mb-20">Quem Somos</h1>
+      <h1 className="text-center text-5xl font-padauk font-semibold text-biovitoria mb-5 lg:mb-20">Quem Somos</h1>
       <div className="grid grid-flow-row md:grid-cols-2 justify-items-center">
         <div className="grid md:grid-flow-row w-64 h-64 xl:w-96 xl:h-96 lg:justify-self-center">
           <div className="lg:w-72">
@@ -37,7 +37,7 @@ export default function About() {
             ></lottie-player>
           </div>
         </div>
-        <div className="grid grid-flow-row text-biovitoria text-xl">
+        <div className="grid grid-flow-row text-biovitoria text-xl mt-10 lg:mt-0">
           <p className="font-bold">
             Mais de 10 Anos no Mercado
             <br /> Atendimento Personalizado <br />
