@@ -42,7 +42,7 @@ export default function Home() {
 
       <footer>
         <div className='bg-biovitoria text-white'>
-          <div className='container mx-auto px-4 py-8'>
+          <div className='container mx-auto px-4 py-16'>
             <Footer />
           </div>
         </div>
